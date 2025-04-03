@@ -49,21 +49,6 @@ h1 {
   justify-content: center;
 }
 
-h2 {
-  font-family: 'Didot', monospace;
-  font-size: 3rem;
-  color: white;
-  white-space: nowrap;
-  margin-top: 6rem;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-  z-index: 0;
-  text-align: center;
-  justify-content: center;
-}
-
 h1 > .magic {
   display: inline-block;
   position: relative;
@@ -121,74 +106,3 @@ h1 > .magic > .magic-text {
   }
 }
 
-/* Pointer Blob */
-
-@keyframes rotate {
-  from {
-    rotate: 0deg;
-  }
-  
-  50% {
-    scale: 1 1.5;
-  }
-  
-  to {
-    rotate: 360deg;
-  }
-}
-
-@keyframes rotate {
-  from {
-    rotate: 0deg;
-  }
-  
-  50% {
-    scale: 1 1.5;
-  }
-  
-  to {
-    rotate: 360deg;
-  }
-}
-
-#blob {
-  height: 34vmax;
-  aspect-ratio: 1;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-  border-radius: 50%;
-  background: linear-gradient(to right, aquamarine, mediumpurple);
-  animation: rotate 20s infinite;
-  opacity: 0.5;
-  z-index: -1;
-}
-
-#blur {
-  height: 300%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  backdrop-filter: blur(12vmax);
-}
-
-/* Background Video Loop */
-
-.bg {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.125;
-  margin-top: 3.5rem;
-}
-
-.bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;}
