@@ -21,7 +21,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   max-width: 100%;
   overflow-x: clip;
   position: relative;
@@ -921,7 +921,7 @@ body::before {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  min-height: 100vh;
+  min-height: 100dvh;
   padding: 2rem;
   box-sizing: border-box;
 }
