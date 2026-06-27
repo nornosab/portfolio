@@ -1349,7 +1349,7 @@ body::before {
   .form-dropdowns {
     flex-direction: column;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 
@@ -1365,18 +1365,29 @@ body::before {
 }
 
 @media (max-width: 768px) or (orientation: portrait) {
-  /* ... your existing mobile rules ... */
-
-  /* Fixes form containers causing horizontal scroll */
   .form-container,
   .form-dropdowns {
     max-width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevents children like select-wrapper from spilling over */
+    overflow-x: hidden;
   }
 
   .select-wrapper {
     max-width: 100%;
     box-sizing: border-box;
   }
+}
+
+.program-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.program-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--text-adaptive);
+  text-align: left;
 }
