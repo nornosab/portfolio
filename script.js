@@ -676,6 +676,10 @@ function updateLanguage(langCode, isInit = false) {
 
     featureIcons.forEach(icon => {
         icon.addEventListener('mousemove', (e) => {
+            if (window.matchMedia('(max-width: 768px)').matches) {
+                return;
+            }
+
             const rect = icon.getBoundingClientRect();
             const mouseX = e.clientX - rect.left;
             const mouseY = e.clientY - rect.top;

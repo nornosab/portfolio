@@ -1363,3 +1363,20 @@ body::before {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media (max-width: 768px) or (orientation: portrait) {
+  /* ... your existing mobile rules ... */
+
+  /* Fixes form containers causing horizontal scroll */
+  .form-container,
+  .form-dropdowns {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevents children like select-wrapper from spilling over */
+  }
+
+  .select-wrapper {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
