@@ -1,99 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <path d="M32,8L32,24C32,28.415 28.415,32 24,32L8,32C3.585,32 0,28.415 0,24L0,8C0,3.585 3.585,0 8,0L24,0C28.415,0 32,3.585 32,8Z"/>
-    <g id="L" transform="matrix(0.5,0,0,0.5,18.5,12.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,-5,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="12" cy="18" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M32,10.56L32,21.44C32,27.268 27.268,32 21.44,32L10.56,32C4.732,32 0,27.268 0,21.44L0,10.56C0,4.732 4.732,0 10.56,0L21.44,0C27.268,0 32,4.732 32,10.56Z"/>
+    <g id="L">
     </g>
-    <g id="I" transform="matrix(0.5,0,0,0.5,12.5,12.5)">
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,-5,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="I">
     </g>
-    <g id="E" transform="matrix(0.5,0,0,0.5,6.5,12.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="E">
     </g>
-    <g id="N" transform="matrix(0.5,0,0,0.5,0.5,12.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="12" cy="18" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="N">
     </g>
-    <g id="L1" serif:id="L" transform="matrix(0.5,0,0,-0.5,18.5,19.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,-5,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="12" cy="18" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="L1" serif:id="L">
     </g>
-    <g id="I1" serif:id="I" transform="matrix(0.5,0,0,-0.5,12.5,19.5)">
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,-5,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="I1" serif:id="I">
     </g>
-    <g id="E1" serif:id="E" transform="matrix(0.5,0,0,-0.5,6.5,19.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="E1" serif:id="E">
     </g>
-    <g id="N1" serif:id="N" transform="matrix(0.5,0,0,-0.5,0.5,19.5)">
-        <g transform="matrix(1,0,0,1,3,4)">
-            <circle cx="10" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="6" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="18" cy="12" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
-        <g transform="matrix(1,0,0,1,1,4)">
-            <circle cx="12" cy="18" r="2" style="fill:white;stroke:black;stroke-width:2px;"/>
-        </g>
+    <g id="N1" serif:id="N">
+    </g>
+    <g transform="matrix(0.927214,0,0,0.927214,-8.29125,8.64111)">
+        <path d="M26.928,16.133L17.246,0.701L17.198,0.701L17.198,16.133L19.862,16.133L19.862,16.469L14.174,16.469L14.174,16.133L16.838,16.133L16.838,-0.283L14.174,-0.283L14.174,-0.619L19.31,-0.619L27.182,12.074L27.182,-0.283L24.518,-0.283L24.518,-0.619C24.518,-0.619 29.95,-0.651 30.206,-0.667C30.462,-0.667 30.71,-0.671 30.95,-0.679C31.19,-0.687 31.422,-0.691 31.646,-0.691C32.814,-0.691 33.774,-0.551 34.526,-0.271C35.278,0.009 35.87,0.353 36.302,0.761C36.734,1.169 37.03,1.609 37.19,2.081C37.35,2.553 37.43,2.981 37.43,3.365C37.43,3.893 37.314,4.381 37.082,4.829C36.85,5.277 36.538,5.669 36.146,6.005C35.754,6.341 35.302,6.613 34.79,6.821C34.278,7.029 33.742,7.165 33.182,7.229L33.182,7.277C33.758,7.325 34.346,7.449 34.946,7.649C35.546,7.849 36.09,8.129 36.578,8.489C37.066,8.849 37.462,9.293 37.766,9.821C38.07,10.349 38.222,10.957 38.222,11.645C38.222,12.365 38.086,13.025 37.814,13.625C37.542,14.225 37.134,14.741 36.59,15.173C36.046,15.605 35.358,15.945 34.526,16.193C33.694,16.441 32.726,16.565 31.622,16.565C31.398,16.565 31.178,16.561 30.962,16.553C30.746,16.545 30.518,16.533 30.278,16.517C30.038,16.501 29.79,16.489 29.534,16.481C29.278,16.473 29.006,16.469 28.718,16.469L24.518,16.469L24.518,16.133L26.928,16.133ZM29.582,-0.283L29.582,7.133L31.79,7.133C32.238,7.133 32.646,7.077 33.014,6.965C33.382,6.853 33.698,6.657 33.962,6.377C34.226,6.097 34.43,5.717 34.574,5.237C34.718,4.757 34.79,4.149 34.79,3.413C34.79,2.581 34.682,1.913 34.466,1.409C34.25,0.905 33.97,0.525 33.626,0.269C33.282,0.013 32.898,-0.155 32.474,-0.235C32.05,-0.315 31.63,-0.355 31.214,-0.355C30.977,-0.355 30.737,-0.353 30.494,-0.347L29.582,-0.283ZM29.582,16.133C29.774,16.149 29.986,16.169 30.218,16.193C30.45,16.217 30.782,16.229 31.214,16.229C31.966,16.229 32.61,16.157 33.146,16.013C33.682,15.869 34.122,15.617 34.466,15.257C34.81,14.897 35.062,14.421 35.222,13.829C35.382,13.237 35.462,12.493 35.462,11.597C35.462,10.317 35.19,9.309 34.646,8.573C34.102,7.837 33.294,7.469 32.222,7.469L29.582,7.469L29.582,16.133Z" style="fill:white;"/>
     </g>
 </svg>
