@@ -717,6 +717,14 @@ body::before {
 }
 
 @media (max-width: 768px), (orientation: portrait) {
+  .section-description {
+    font-size: 20px;
+    line-height: 1.45;
+    margin: 2rem 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
   .lang-row {
     flex-direction: column; align-items: center; gap: 2rem;
 
@@ -1365,24 +1373,29 @@ body::before {
 }
 
 @media (max-width: 768px) or (orientation: portrait) {
-  .form-container {
+  .form-container,
+  .form-dropdowns {
     max-width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
   }
 
   .form-dropdowns {
-    max-width: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    flex-direction: column; 
-    gap: 24px; 
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    width: 100%;
+    overflow: visible;
   }
 
   .select-wrapper {
+    width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+  }
+
+  .select-wrapper select {
+    width: 100%;
   }
 }
 
@@ -1399,4 +1412,3 @@ body::before {
   color: var(--text-adaptive);
   text-align: left;
 }
-
