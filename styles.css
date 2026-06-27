@@ -144,27 +144,38 @@ canvas {
 /* Background Animation */
 
 @keyframes abstract-background {
-  0% { filter: hue-rotate(0) saturate(200%); background-size: 100% 100%; }
+  0% {
+    filter: hue-rotate(0) saturate(200%);
+    background-size: 100% 100%;
+  }
   20% { filter: hue-rotate(0) saturate(150%); }
   25% { filter: hue-rotate(-45deg) saturate(150%); }
   45% { filter: hue-rotate(-45deg) saturate(400%); }
-  50% { filter: hue-rotate(0) saturate(400%); background-size: 100% 300%; }
+  50% {
+    filter: hue-rotate(0) saturate(400%);
+    background-size: 150% 150%;
+  }
   70% { filter: hue-rotate(0) saturate(150%); }
   75% { filter: hue-rotate(15deg) saturate(150%); }
   95% { filter: hue-rotate(15deg) saturate(200%); }
-  100% { filter: hue-rotate(0) saturate(200%); background-size: 100% 100%; }
+  100% {
+    filter: hue-rotate(0) saturate(200%);
+    background-size: 100% 100%;
+  }
 }
 
 body::before {
   content: "";
   position: fixed;
-  inset: -10svh 0;
-  width: auto;
-  min-height: 120svh;
+  top: -10vh;
+  left: -10vw;
+  width: 120vw;
+  height: 120vh;
   z-index: -1;
   opacity: 0.5;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
+
   background:
     radial-gradient(
       ellipse at 0% 25%,
@@ -174,7 +185,10 @@ body::before {
       ellipse at 100% 75%,
       var(--colour-secondary-blue) 25%, var(--colour-main-black) 70%, var(--colour-secondary-blue) 75%, var(--colour-main-black) 80%
     );
-  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   filter: hue-rotate(0) saturate(200%);
   animation-name: abstract-background;
