@@ -1,0 +1,554 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Neil Berenguer</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Neil Berenguer">
+		<meta name="description" content="Neil Berenguer's Website Portfolio.">
+
+		<meta property="og:title" content="Neil Berenguer's Website">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://neil-berenguer.com">
+		<meta property="og:image" content="https://github.com/nornosab/portfolio/blob/main/rsc/PNG/meta–img.png?raw=true">
+
+		<meta property="description" content="Neil Berenguer's Website Portfolio.">
+
+		<link rel="icon" href="rsc/PNG/tab–icon.png" type="image/x-icon">
+		<link rel="stylesheet" href="styles.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWX74HNCC8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EWX74HNCC8');
+  </script>
+	</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" id="hamburger">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a data-translate="nav_home" href="#">Home</a></li>
+          <li><a data-translate="nav_about" href="#about-section">About</a></li>
+          <li><a data-translate="nav_programs" href="#programs-section">Programs</a></li>
+          <li><a data-translate="nav_certificates" href="#certificates-section">Certificates</a></li>
+          <!-- <li><a data-translate="nav_works" href="#work-section">Works</a></li> -->
+          <li><a data-translate="nav_contact" href="#contact-section">Contact</a></li>
+          <li class="nav-item lang-dropdown">
+            <button class="nav-icon" id="lang-trigger">
+              <img src="/rsc/ics/language.svg" alt="Globe Icon" class="nav-lang-icon">
+              <span data-translate="nav_language">Language</span>
+            </button>
+            <ul class="lang-menu" id="lang-menu">
+              <li><button data-lang="en">🇬🇧 English</button></li>
+              <li><button data-lang="fr">🇫🇷 Français</button></li>
+              <li><button data-lang="es">🇪🇸 Español</button></li>
+              <li><button data-lang="ca"><img src="/rsc/ics/catalan.png" alt="Català" class="lang-flag-icon"> Català</button></li> <!-- El català no disposa d'emoji propi, quin sacrilegi. -->
+              <li><button data-lang="de">🇩🇪 Deutsch</button></li>
+            </ul>
+        </li>
+          <!-- <li><button class="nav-icon" id="theme-toggle" data-translate="nav_theme">Theme Mode</button></li> -->
+        </ul>
+    </div>
+</nav>
+
+<!-- Landing Section -->
+
+<section class="home-section hidden">
+
+  <div class="profile-circle">
+    <img src="/rsc/JPG/NEIL-BE.jpeg" alt="Neil Berenguer" class="profile-img">
+    <button class="hover-overlay" aria-label="Scroll down to about section">
+      <span class="scroll-text" data-translate="scroll_down">Scroll down</span>
+      <svg class="scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </button>
+  </div>
+
+  <h1 class="neil-berenguer">Neil Berenguer</h1>
+
+</section>
+
+
+<!-- About Section -->
+
+<section id="about-section" class="content-section hidden">
+
+  <h1 class="section-title" data-translate="heading">About me</h1>
+  <p class="section-description" data-translate="description">
+    Professional specialized in the technical fields of Data Analytics and Front-End Development. Due to my upbringing and education based on the country of Andorra, I've been acquainted with quite a handful of languages since birth.
+  </p>
+
+  <div class="lang-grid">
+    <div class="lang-row">
+      <div class="lang">
+        <h3>English</h3>
+        <div class="progress-track">
+          <div class="progress-fill" style="--target-width: 100%;">
+          </div>
+        </div>
+        <span class="skill-desc">C2 – CPE Cambridge</span>
+        <button class="lang-btn" data-lang="en">Change language</button>
+      </div>
+
+      <div class="lang">
+        <h3>Français</h3>
+        <div class="progress-track">
+          <div class="progress-fill" style="--target-width: 83.33%;">
+          </div>
+        </div>
+        <span class="skill-desc">C1 – DALF</span>
+        <button class="lang-btn" data-lang="fr">Changer de langue</button>
+      </div>
+
+      <div class="lang">
+        <h3>Español</h3>
+        <div class="progress-track">
+          <div class="progress-fill" style="--target-width: 100%;">
+          </div>
+        </div>
+        <span class="skill-desc">C2 – DELE Cervantes</span>
+        <button class="lang-btn" data-lang="es">Cambiar idioma</button>
+      </div>
+    </div>
+
+    <div class="lang-row">
+      <div class="lang">
+        <h3>Català</h3>
+        <div class="progress-track">
+          <div class="progress-fill" style="--target-width: 100%;">
+          </div>
+        </div>
+        <span class="skill-desc" data-translate="catalan_level">C2 – Native</span>
+        <button class="lang-btn" data-lang="ca">Canviar idioma</button>
+      </div>
+
+      <div class="lang">
+        <h3>Deutsch</h3>
+        <div class="progress-track">
+          <div class="progress-fill" style="--target-width: 33.33%;">
+          </div>
+        </div>
+        <span class="skill-desc" data-translate="deutsch_level">A2 – Currently in progress</span>
+        <button class="lang-btn" data-lang="de">Sprache ändern</button>
+      </div>
+    </div>
+  </div>
+    <p class="section-description" data-translate="language_instructions">
+      Click on any of the above languages to change the language of the website.
+    </p>
+
+</section>
+
+
+<!-- Programs Section -->
+
+<section id="programs-section" class="content-section hidden">
+
+  <h1 class="section-title" data-translate="programs_h1">Programs</h1>
+
+  <div class="programs-container">
+    <div class="programs-column">
+      <h2 class="job-title" data-translate="job_title_h2_left">Data Analytics</h2>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/Excel.png" alt="Excel Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_l1_h3">Excel</h3>
+          <p class="program-desc" data-translate="program_l1_p">
+            Microsoft Excel | Google Sheets | Apple Numbers. Spreadsheet editors featuring calculation and computational capabilities, graphing tools, pivot tables, etc.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/SQL.png" alt="SQL BigQuery Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_l2_h3">SQL (BigQuery)</h3>
+          <p class="program-desc" data-translate="program_l2_p">
+            Structured Query Language (SQL) is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). Particularly useful in handling structured data, i.e., data incorporating relations among entities and variables.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/RStudio.png" alt="RStudio Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_l3_h3">RStudio (R)</h3>
+          <p class="program-desc" data-translate="program_l3_p">
+            R is a programming language for statistical computing and data visualization. It has been widely adopted in the fields of data mining, bioinformatics, data analysis, and data science.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/Tableau.png" alt="Tableau Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_l4_h3">Tableau</h3>
+          <p class="program-desc" data-translate="program_l4_p">
+            Leading visual analytics and business intelligence (BI) platform. Allows to connect to raw data and transform it into interactive, digestible graphics like dashboards, maps, and charts—making complex patterns, trends, and outliers easily understandable to anyone.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/PowerPoint.png" alt="PowerPoint Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_l5_h3">PowerPoint</h3>
+          <p class="program-desc" data-translate="program_l5_p">
+            Microsoft Powerpoint | Google Slides | Apple Keynote. Presentation softwares used extensively throught Data Analytics to present results to stakeholders as well as study participants.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="programs-column">
+      <h2 class="job-title" data-translate="job_title_h2_right">Front-End Dev</h2>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/HTML.png" alt="HTML5 Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_r1_h3">HTML5</h3>
+          <p class="program-desc" data-translate="program_r1_p">
+            Core markup language used for structuring and presenting content on the World Wide Web. Introduced to replace older standards, it provides native support for multimedia, semantic elements, and enhanced web application features without requiring external plugins like Flash.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/CSS.png" alt="CSS3 Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_r2_h3">CSS</h3>
+          <p class="program-desc" data-translate="program_r2_p">
+            Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language. CSS is a cornerstone technology of the World Wide Web.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/JS.png" alt="JavaScript Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_r3_h3">JS</h3>
+          <p class="program-desc" data-translate="program_r3_p">
+             Programming language and core technology of the Web. JavaScript is a high-level, often just-in-time–compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/Figma.png" alt="Figma Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_r4_h3">Figma</h3>
+          <p class="program-desc" data-translate="program_r4_p">
+            Figma | Adobe XD. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilizing a variety of vector graphics editor and prototyping tools.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <img src="/rsc/apps/React.png" alt="React Icon" class="program-img">
+        </div>
+        <div class="program-content">
+          <h3 data-translate="program_r5_h3">React</h3>
+          <p class="program-desc" data-translate="program_r5_p">
+            React is one of the most commonly used web technologies (according to the 2025 Stack Overflow Developer Survey). Free and open-source front-end JavaScript library developed by Meta (priorly Facebook) that aims to make building user interfaces based on components more 'seamless'. It is actively maintained and updated by Meta and a community of individual developers and companies.
+          </p>
+          <button class="see-more-btn" aria-expanded="false">
+            <span data-translate="see_more">see more</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates-section" class="content-section hidden">
+  <h1 class="section-title" data-translate="certificates">Certificates</h1>
+
+  <div class="certificates-container">
+    <div class="certificates-column">
+      <h2 class="cert-title" data-translate="job_title_h2_left">Data Analytics</h2>
+      <!-- <p class="cert-subtitle" data-translate="port_sub">Professional Certificate</p> -->
+
+      <div class="cert-grid">
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_l1">Data Foundations</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_l2">Data-Driven Decision Making</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_l3">Data Exploration</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_l4">Data Processing (SQL)</p>
+        </div>
+        <div class="cert-item">
+          <a class="cert-course" data-translate="certificate_l5">Data Analysis (RStudio)</a>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_l6">Data Viz (Tableau)</p>
+        </div>
+      </div>
+
+      <a href="https://coursera.org/share/8e6b11eda8a69020aa1412ba5885c0c3" target="_blank" rel="noopener noreferrer" class="view-cert-block-btn" data-translate="port_hover">
+        View Certificate
+      </a>
+
+      <div class="skills-block">
+        <h3 class="skills-title" data-translate="skills_h3">Skills</h3>
+            <div class="skills-pill-box"> <!--  #ToDo add/substract/order -->
+            <span class="skill-pill">Data Cleansing</span>
+            <span class="skill-pill">Branding</span>
+            <span class="skill-pill">Dashboard</span>
+            <span class="skill-pill">Communication Strategies</span>
+            <span class="skill-pill">Consolidation</span>
+            <span class="skill-pill">Data Visualization</span>
+            <span class="skill-pill">Data Ethics</span>
+            <span class="skill-pill">Databases</span>
+            <span class="skill-pill">Driving Engagement</span>
+            <span class="skill-pill">Excel</span>
+            <span class="skill-pill">Ggplot2</span>
+            <span class="skill-pill">Google Sheets</span>
+            <span class="skill-pill">Apple Numbers</span>
+            <span class="skill-pill">R</span>
+            <span class="skill-pill">Object-Oriented Programming</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">AI Literary</span>
+            <span class="skill-pill">Tableau</span>
+            <span class="skill-pill">Kaggle</span>
+            <span class="skill-pill">Quantitative Research</span>
+            <span class="skill-pill">Query Languages</span>
+            <span class="skill-pill">Relational Databases</span>
+            <span class="skill-pill">Sampling (Statistics)</span>
+            <span class="skill-pill">Stakeholder Engagement</span>
+          </div>
+
+          <button class="see-more-btn" aria-expanded="false">
+          <span data-translate="see_more">see more</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="certificates-column">
+      <h2 class="cert-title" data-translate="job_title_h2_right">Front-End Dev</h2>
+      <!-- <p class="cert-subtitle" data-translate="port_sub">Professional Certificate</p> -->
+
+      <div class="cert-grid">
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_r1">JS Programming</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_r2">Version Control</p>
+        </div>
+        <div class="cert-item">
+          <p href="#" class="cert-course" data-translate="certificate_r3">HTML & CSS in-depth</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_r4">React Basics</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_r5">Advanced React</p>
+        </div>
+        <div class="cert-item">
+          <p class="cert-course" data-translate="certificate_r6">UX/UI Design</p>
+        </div>
+      </div>
+
+      <a href="https://coursera.org/share/8e6b11eda8a69020aa1412ba5885c0c3" target="_blank" rel="noopener noreferrer" class="view-cert-block-btn" data-translate="port_hover">
+        View Certificate
+      </a> <!-- Hey there! If you're reading this, the link is not a fluke, currently at 93% completion of this certification. Put the other certificate as a placeholder 🤗 -->
+
+      <div class="skills-block">
+        <h3 class="skills-title" data-translate="skills_h3">Skills</h3>
+          <div class="skills-pill-box"> <!--  #ToDo add/substract/order -->
+            <span class="skill-pill">Adobe XD</span>
+            <span class="skill-pill">Figma</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">Application Development</span>
+            <span class="skill-pill">JS</span>
+            <span class="skill-pill">UI</span>
+            <span class="skill-pill">Application Programming Interface (API)</span>
+            <span class="skill-pill">Framer</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Tailwind</span>
+            <span class="skill-pill">Browser Compatibility</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">CSS</span>
+            <span class="skill-pill">JSX</span>
+            <span class="skill-pill">UX</span>
+            <span class="skill-pill">Microsoft VSCode</span>
+            <span class="skill-pill">Design Research</span>
+            <span class="skill-pill">User Research</span>
+            <span class="skill-pill">JSON</span>
+            <span class="skill-pill">Prototyping</span>
+            <span class="skill-pill">Wireframing</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">SEO</span>
+            <span class="skill-pill">Semantic Accesibility</span>
+            <span class="skill-pill">Software Development</span>
+            <span class="skill-pill">UI/UX Research</span>
+            <span class="skill-pill">UI/UX Strategy</span>
+            <span class="skill-pill">Version Control</span>
+          </div>
+
+        <button class="see-more-btn" aria-expanded="false">
+          <span data-translate="see_more">see more</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="work-section" class="content-section hidden">
+
+  <h1 class="section-title" data-translate="dev_h1">Works</h1>
+
+    <div class="work-header-col">
+    <h2 class="work-job-title" data-translate="job_title_h2_left">Data Analyst</h2>
+    <h2 class="work-job-title" data-translate="job_title_h2_right">Front-End Dev</h2>
+  </div>
+
+  <div class="work-in-dev">
+    <p data-translate="work_in_dev">Section still in development 🤭</p>
+  </div>
+</section> -->
+
+<section id="contact-section" class="content-section hidden">
+
+  <div class="contact-info-wrapper">
+    <h1 class="section-title" data-translate="contact_h1">Want me to work with you?</h1>
+
+    <div class="availability-badge">
+      <span class="status-dot"></span>
+      <span data-translate="contact_availability">Currently available for a full-time job</span>
+    </div>
+
+    <div class="contact-info-block">
+      <p class="contact-subtitle" data-translate="contact_sub1">If you'd like me to work with you as a</p>
+      <h2 class="contact-position" data-translate="contact_pos">Data Analyst | Front-End Dev</h2>
+      <p class="contact-email-text">
+        <span data-translate="contact_sub2">send me a message at</span>
+        <a href="mailto:neil.berenguer.work@gmail.com" class="contact-email">neil.berenguer.work@gmail.com</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <div class="form-dropdowns">
+      <div class="select-wrapper">
+        <select id="position-select">
+          <option value="" disabled selected data-translate="form_position">Position</option>
+          <option value="Option A" data-translate="opt_a">Data Analyst</option>
+          <option value="Option B" data-translate="opt_b">Front-End Developer</option>
+          <option value="Option C" data-translate="opt_c">Another position</option>
+        </select>
+      </div>
+
+      <div class="select-wrapper">
+        <select id="proposal-select">
+          <option value="" disabled selected data-translate="form_proposal">Proposal</option>
+          <option value="Option 1" data-translate="opt_1">Full-time Offer</option>
+          <option value="Option 2" data-translate="opt_2">Part-time / Temporary Project</option>
+          <option value="Option 3" data-translate="opt_3">Another proposal</option>
+        </select>
+      </div>
+    </div>
+
+    <textarea id="form-text-message" placeholder="Message:" data-translate="form_placeholder"></textarea>
+    <button id="form-submit-btn" class="form-submit-btn" data-translate="form_submit">Send me a message</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
