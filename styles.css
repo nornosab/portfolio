@@ -8,7 +8,8 @@ html {
 body {
   margin: 0;
   font-family: sans-serif;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   position: relative;
   z-index: 1;
 
@@ -576,9 +577,9 @@ body::before {
   width: 50%;
   height: 100%;
   background: linear-gradient(
-    90deg, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.4) 50%, 
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
     rgba(255, 255, 255, 0) 100%
   );
   transform: skewX(-25deg);
@@ -587,7 +588,14 @@ body::before {
 }
 
 .profile-circle:hover::before {
-  animation: border-shine 3s infinite ease-in-out; 
+  animation: border-shine 3s infinite ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .profile-circle {
+    width: calc(100vw - 3rem);
+    max-width: 450px;
+  }
 }
 
 .scroll-icon {
@@ -846,7 +854,7 @@ body::before {
   }
 
   .job-title {
-    text-align: left;
+    text-align: center;
   }
 }
 
