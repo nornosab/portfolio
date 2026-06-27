@@ -1365,11 +1365,19 @@ body::before {
 }
 
 @media (max-width: 768px) or (orientation: portrait) {
-  .form-container,
+  .form-container {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
   .form-dropdowns {
     max-width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+    flex-direction: column; 
+    gap: 24px; 
+    align-items: center;
   }
 
   .select-wrapper {
@@ -1391,3 +1399,4 @@ body::before {
   color: var(--text-adaptive);
   text-align: left;
 }
+
