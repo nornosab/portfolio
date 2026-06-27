@@ -26,7 +26,6 @@ body {
   overflow-x: clip;
   position: relative;
   z-index: 1;
-
   background-color: #ffffff;
 }
 
@@ -1619,4 +1618,9 @@ body::before {
   .form-container textarea {
     height: 76px;
   }
+}
+
+.footer-or-content-box {
+  /* Automatically adds spacing so content doesn't get buried behind the Safari pill */
+  padding-bottom: env(safe-area-inset-bottom);
 }
