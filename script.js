@@ -2,9 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* Landing Smooth Scroll */
 
-    document.querySelector('.hover-overlay').addEventListener('click', () => {
-        document.querySelector('#about-section').scrollIntoView({behavior: 'smooth'});
-    });
+    const hoverOverlay = document.querySelector('.hover-overlay');
+    const canUseHoverOverlay = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+    if (hoverOverlay && canUseHoverOverlay) {
+        hoverOverlay.addEventListener('click', () => {
+            document.querySelector('#about-section').scrollIntoView({behavior: 'smooth'});
+        });
+    }
 
 
 /* Language Switcher */

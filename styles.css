@@ -1424,6 +1424,21 @@ body::before {
     width: min(100%, 450px);
     max-width: calc(100% - 2rem);
   }
+
+  .hover-overlay {
+    display: none;
+  }
+
+  .profile-circle:hover,
+  .profile-circle:active {
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: none;
+  }
+
+  .profile-circle:hover::before {
+    animation: none;
+  }
 }
 
 @media (max-width: 900px) {
