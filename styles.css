@@ -1337,6 +1337,11 @@ body::before {
     overflow-wrap: anywhere;
   }
 
+  .neil-berenguer {
+    width: 100%;
+    text-align: center;
+  }
+
   .section-title {
     font-size: 32px;
     line-height: 1.15;
