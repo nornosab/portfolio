@@ -4,11 +4,12 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   overscroll-behavior: none;
+  overflow-x: clip;
   width: 100%;
   min-height: 100%;
   max-width: 100%;
   overflow-x: clip;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 *,
